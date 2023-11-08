@@ -28,8 +28,8 @@ def print_students(*students_names):
 
 good_morning()
 
+
+print(f"You owe them {issue_pay(int(input('How many hours have they worked? >  ')))}")
+
 print_students("James", "Brayden", "Micah", "Cameron")
-
-print(issue_pay(int(input("How many hours have they worked? >  "))))
-
 print_students("James", "Brayden", "Micah", "Cameron", "Brayden (different one)", "Allen", "Agent 47", "Stabby McStab face (legal name)")
