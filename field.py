@@ -24,11 +24,12 @@ def print_students(*students_names):
         students_names (strings, multiple): Students Names
     """
     for profit_giver in students_names:
-        print("Hello20", profit_giver)
+        print(profit_giver)
 
 good_morning()
 
+print_students("James", "Brayden", "Micah", "Cameron")
+
 print(issue_pay(int(input("How many hours have they worked? >  "))))
 
-print_students("James", "Brayden", "Micah", "Cameron")
 print_students("James", "Brayden", "Micah", "Cameron", "Brayden (different one)", "Allen", "Agent 47", "Stabby McStab face (legal name)")
